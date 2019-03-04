@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in *.gz
+for file in *.tar.gz
 do
-gunzip "$file" > file 
+tar -xz -f "$file" 
 done
