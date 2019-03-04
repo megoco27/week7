@@ -2,5 +2,5 @@
 
 for file in *.tar.gz
 do
-tar -xz -f "$file" 
+tar zxvf "$file" 
 done
